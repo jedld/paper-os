@@ -7,7 +7,20 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    archive-zip (0.12.0)
+      io-like (~> 0.3.0)
     epoll (0.3.0)
+    epub-cfi (0.1.2)
+    epub-parser (0.4.5)
+      addressable (>= 2.3.5)
+      archive-zip
+      epub-cfi
+      rchardet (>= 1.6.1)
+    io-like (0.3.1)
+    public_suffix (4.0.6)
+    rchardet (1.8.0)
     rpi_gpio (0.5.0)
       epoll (~> 0.3)
 
@@ -16,6 +29,7 @@ PLATFORMS
 
 DEPENDENCIES
   epaperify!
+  epub-parser
   rpi_gpio
 
 BUNDLED WITH
