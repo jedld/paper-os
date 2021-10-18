@@ -1,0 +1,22 @@
+GIT
+  remote: git@github.com:jedld/epaperify.git
+  revision: f8f3a9f140c19d282c5c40a5f3546523b2a1476a
+  specs:
+    epaperify (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    epoll (0.3.0)
+    rpi_gpio (0.5.0)
+      epoll (~> 0.3)
+
+PLATFORMS
+  arm-linux
+
+DEPENDENCIES
+  epaperify!
+  rpi_gpio
+
+BUNDLED WITH
+   2.2.29
